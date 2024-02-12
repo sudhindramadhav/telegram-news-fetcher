@@ -13,9 +13,9 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Define your Telegram bot token
-TOKEN = '6395640347:AAGrUohEKwJeux4eTZeaiJcgw3Ra8fBDIWk'
+TOKEN = 'YOUR TOKEN KEY'
 # Define your ChatID
-CHAT_ID = '6395640347'
+CHAT_ID = 'YOUR CHAT ID'
 
 # Create instances of the scrapers
 entertainment_scraper = EntertainmentScraper("https://timesofindia.indiatimes.com/")
